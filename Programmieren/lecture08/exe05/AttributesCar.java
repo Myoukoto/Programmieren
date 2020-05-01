@@ -19,9 +19,21 @@ public class AttributesCar
 		Fiat500.maxVelocity=160;
 		Fiat500.color="white";
 		Fiat500.engineSize=1242;
+		
 		if (MiniPaceman.engineSize>CClassCoupe.engineSize) 
 		{
-			
+			if (MiniPaceman.engineSize>Fiat500.engineSize)
+			{
+				System.out.println("Minipaceman has the biggest engine size");
+			}
+		}
+		else if (CClassCoupe.engineSize>Fiat500.engineSize)
+		{
+			System.out.println("C Class Coupe has the biggeste engine size");
+		}
+		else 
+		{
+			System.out.println("Fiat 500 has the biggest engine");
 		}
 	}
 }
