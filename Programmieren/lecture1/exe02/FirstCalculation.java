@@ -1,6 +1,6 @@
-package lecture01;
+package exe02;
 
-public class ErsteBerechnung 
+public class FirstCalculation 
 {
 	public static void main(String[] args) 
 	{

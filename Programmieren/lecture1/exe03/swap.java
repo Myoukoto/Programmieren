@@ -1,21 +1,21 @@
-package lecture01;
+package exe03;
 
-public class Tausch 
+public class swap 
 {
 	public static void main(String[] args) 
 	{
 		int x = 5;
 		int y =7;
-		// Vor dem Tausch
+		// before the swap
 		System.out.println(x);
 		System.out.println(y);
 		
-		//Tausch
+		//swap
 		x=x+y;
 		y=x-y;
 		x=x-y;
 		
-		// Nach dem Tausch
+		// after the swap
 		System.out.println(x);
 		System.out.println(y);
 	}
